@@ -1,0 +1,45 @@
+
+<link rel="stylesheet" href="form.css">
+
+<div class="container">
+    <h3 align="center">Student Form</h3>
+    <form action="student-response.jsp">
+        <span>First Name</span><br>
+        <input type="text" name="firstName" /><br>
+        <span>Last Name</span><br>
+        <input type="text" name="lastName" /><br>
+        <select name="country">
+            Country
+            <option>Pakistan</option>
+            <option>America</option>
+            <option>India</option>
+            <option>Brazil</option>
+            <option>Germany</option>
+        </select>
+        <br>
+        <div class="languages">
+            <input type="radio" name="favoriteLanguage" value="Java"> Java
+            <br>
+            <input type="radio" name="favoriteLanguage" value="C/C++"> C/C++
+            <br>
+            <input type="radio" name="favoriteLanguage" value="Python"> Python
+            <br>
+            <input type="radio" name="favoriteLanguage" value="Java Script"> JS
+            <br>
+        </div>
+        <br>
+        <div class="skills">
+            Skills
+            <br>
+            <input type="checkbox" name="skill" value="Web Development"> Web Development
+            <br>
+            <input type="checkbox" name="skill" value="Android Development"> Android Development
+            <br>
+            <input type="checkbox" name="skill" value="Software Development"> Software Development
+            <br>
+            <input type="checkbox" name="skill" value="Data Scientist"> Data Scientist
+            <br>
+        </div>
+        <input type="submit" value="Submit" /><br>
+    </form>
+</div>
